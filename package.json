@@ -1,11 +1,12 @@
 {
-  "name": "@hexlet/code",
+  "name": "eslint",
   "type": "module",
   "version": "1.0.0",
-  "description": "",
+  "description": "После завершения всех шагов в проекте, вам станут доступны автоматические тесты. Тесты запускаются на каждый коммит - после завершения всех заданий в интерфейсе Хекслета, сделайте коммит, и тесты заработают автоматически.",
   "main": "index.js",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,6 +22,16 @@
   },
   "homepage": "https://github.com/testerSereja/frontend-project-44#readme",
   "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "eslint": "^8.30.0",
+    "eslint-config-standard-with-typescript": "^24.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "typescript": "^4.9.4"
   }
 }
