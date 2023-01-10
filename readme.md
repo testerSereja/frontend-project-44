@@ -6,4 +6,5 @@
 
 <a href="https://codeclimate.com/github/testerSereja/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/e81fe63b4a3f5ee11cfd/maintainability" /></a>
 
-ссылка на асинема https://asciinema.org/a/T4Rop3aDKAXVfsc0iXs4FV3TR
+ссылка на асинема 
+<a href="https://asciinema.org/a/T4Rop3aDKAXVfsc0iXs4FV3TR">
