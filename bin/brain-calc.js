@@ -19,8 +19,9 @@ function brainCalc(Username) {
     const answer = readlineSync.question('Your answer: ');
 
     if (rightAnswer !== +answer) {
-      return console.log(`${answer} is wrong answer ;(. Correct answer was ${rightAnswer}.
+      console.log(`${answer} is wrong answer ;(. Correct answer was ${rightAnswer}.
         Let's try again,${Username}!`); 
+        return;
     }
 
     console.log('Correct!');

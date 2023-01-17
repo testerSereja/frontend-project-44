@@ -16,8 +16,9 @@ Answer "yes" if the number is even, otherwise answer "no".`);
       console.log('Correct');
     } else {
       console.log('false');
-      return console.log(`'yes' is wrong answer ;(. Correct answer was 'no'.
+       console.log(`'yes' is wrong answer ;(. Correct answer was 'no'.
     Let's try again, ${Username}`);
+    return;
     }
   }
   console.log(`Congratulations,${Username}!`);
