@@ -8,3 +8,4 @@
 
 ссылка на асинема 
 <a href="https://asciinema.org/a/T4Rop3aDKAXVfsc0iXs4FV3TR">
+<a href = https://asciinema.org/a/dIqJXz1fCcXYGSA0kCeZPkVTV>
