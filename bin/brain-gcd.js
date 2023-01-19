@@ -2,8 +2,8 @@
 import readlineSync from 'readline-sync';
 import name from '../src/cli.js';
 
-function brainGcd(Username){
-    console.log(`Hello, ${Username}
+function brainGcd(username){
+    console.log(`Hello, ${username}
 Find the greatest common divisor of given numbers.`)
 for (let i = 0; i < 3; i++){
 const randomNumber = (base) => Math.round(Math.random() * base);
@@ -26,11 +26,11 @@ function gcd(num1, num2) {
 console.log(rightAnswer,answer)
   if (rightAnswer !== +answer) {
      console.log(`${answer} is wrong answer ;(. Correct answer was ${rightAnswer}.
-      Let's try again,${Username}!`); 
+      Let's try again,${username}!`); 
       return;
     }
     console.log('Correct!');
 }
-console.log(`Congratulations,${Username}!`)
+console.log(`Congratulations,${username}!`)
 }
 brainGcd(name)

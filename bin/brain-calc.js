@@ -2,8 +2,8 @@
 import readlineSync from 'readline-sync';
 import name from '../src/cli.js';
 
-function brainCalc(Username) {
-  console.log(`Hello, ${Username}
+function brainCalc(username) {
+  console.log(`Hello, ${username}
     What is the result of the expression?`);
   for (let i = 0; i < 3; i++) {
     const randomNumber = (base) => Math.round(Math.random() * base);
@@ -20,13 +20,13 @@ function brainCalc(Username) {
 
     if (rightAnswer !== +answer) {
       console.log(`${answer} is wrong answer ;(. Correct answer was ${rightAnswer}.
-        Let's try again,${Username}!`); 
+        Let's try again,${username}!`); 
         return;
     }
 
     console.log('Correct!');
   }
 
-  console.log(`Congratulations,${Username}!`);
+  console.log(`Congratulations,${username}!`);
 }
 brainCalc(name);
