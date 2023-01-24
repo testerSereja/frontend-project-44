@@ -13,14 +13,10 @@ What number is missing in the progression?`);
     for (let i = 0; i < 9; i++) {
       Array.push(Array[Array.length - 1] + step);
     }
-    // console.log(Array)
-
+    
     const index = Math.floor(Math.random() * (Array.length - 1));
     const answer = Array[index];
     Array.splice(index, 1, '..');
-    //  console.log(index)
-    //  console.log(Array)
-    //  console.log(answer)
     console.log(`Question: ${Array}`);
     const plaveranswer = readlineSync.question('Your answer: ');
     if (answer !== +plaveranswer) {

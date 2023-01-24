@@ -1,5 +1,5 @@
 {
-  "name": "eslint",
+  "name":"@hexlet/code",
   "type": "module",
   "version": "1.0.0",
   "description": "После завершения всех шагов в проекте, вам станут доступны автоматические тесты. Тесты запускаются на каждый коммит - после завершения всех заданий в интерфейсе Хекслета, сделайте коммит, и тесты заработают автоматически.",
@@ -7,10 +7,10 @@
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
-    "brain-calc": "brain-calc.js",
-    "brain-gcd" :"brain-gcd.js",
-    "brain-progression" : "brain-progression.js",
-    "brain-prime": "brain-prime.js"
+    "brain-calc": "bin/brain-calc.js",
+    "brain-gcd": "bin/brain-gcd.js",
+    "brain-progression": "bin/brain-progression.js",
+    "brain-prime": "bin/brain-prime.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import readlineSync from 'readline-sync';
 import name from '../src/cli.js';
 
@@ -11,8 +12,6 @@ function brainPrime(username) {
     console.log(`Question: ${num}`);
     const answer = readlineSync.question('Your answer: ');
 
-    console.log(num);
-
     function primality(num) {
       for (let i = 2; i < num; i++) {
         if (num % i === 0) return false;
@@ -21,7 +20,6 @@ function brainPrime(username) {
     }
     const rightAnswer = primality(num) ? 'yes' : 'no';
     console.log(rightAnswer);
-    console.log(primality(num));
     if (rightAnswer !== answer) {
       console.log(`${answer} is wrong answer ;(. Correct answer was ${rightAnswer}.
    Let's try again,${username}!`);
