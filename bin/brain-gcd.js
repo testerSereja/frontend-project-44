@@ -18,7 +18,7 @@ Find the greatest common divisor of given numbers.`);
 
       return gcd(num2, num1 % num2);
     }
-    console.log(`Question:${expression}`);
+    console.log(`Question: ${expression}`);
     const rightAnswer = gcd(num1, num2);
 
     const answer = readlineSync.question('Your answer: ');
