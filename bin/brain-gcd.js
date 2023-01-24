@@ -30,6 +30,6 @@ Find the greatest common divisor of given numbers.`);
     }
     console.log('Correct!');
   }
-  console.log(`Congratulations,${username}!`);
+  console.log(`Congratulations, ${username}!`);
 }
 brainGcd(name);

@@ -26,7 +26,7 @@ What number is missing in the progression?`);
     }
     console.log('Correct!');
   }
-  console.log(`Congratulations,${username}!`);
+  console.log(`Congratulations, ${username}!`);
 }
 
 console.log(brainProgression(name));

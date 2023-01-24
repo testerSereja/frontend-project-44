@@ -21,7 +21,7 @@ Answer "yes" if the number is even, otherwise answer "no".`);
       return;
     }
   }
-  console.log(`Congratulations,${username}!`);
+  console.log(`Congratulations, ${username}!`);
 }
 
 brainEven(name);

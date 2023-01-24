@@ -27,6 +27,6 @@ function brainCalc(username) {
     console.log('Correct!');
   }
 
-  console.log(`Congratulations,${username}!`);
+  console.log(`Congratulations, ${username}!`);
 }
 brainCalc(name);
