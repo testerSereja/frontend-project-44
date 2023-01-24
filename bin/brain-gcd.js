@@ -25,7 +25,7 @@ Find the greatest common divisor of given numbers.`);
     console.log(rightAnswer, answer);
     if (rightAnswer !== +answer) {
       console.log(`${answer} is wrong answer ;(. Correct answer was ${rightAnswer}.
-      Let's try again, ${username}!`);
+Let's try again, ${username}!`);
       return;
     }
     console.log('Correct!');

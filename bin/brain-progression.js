@@ -21,7 +21,7 @@ What number is missing in the progression?`);
     const plaveranswer = readlineSync.question('Your answer: ');
     if (answer !== +plaveranswer) {
       console.log(`${plaveranswer} is wrong answer ;(. Correct answer was ${answer}.
-   Let's try again, ${username}!`);
+Let's try again, ${username}!`);
       return;
     }
     console.log('Correct!');
