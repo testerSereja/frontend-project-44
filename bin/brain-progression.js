@@ -17,7 +17,8 @@ What number is missing in the progression?`);
     const index = Math.floor(Math.random() * (Array.length - 1));
     const answer = Array[index];
     Array.splice(index, 1, '..');
-    console.log(`Question: ${Array}`);
+    console.log(Array)
+    console.log(`Question: ${Array.join(' ')}`);
     const plaveranswer = readlineSync.question('Your answer: ');
     if (answer !== +plaveranswer) {
       console.log(`${plaveranswer} is wrong answer ;(. Correct answer was ${answer}.
