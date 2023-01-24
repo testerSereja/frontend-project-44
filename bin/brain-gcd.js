@@ -22,7 +22,6 @@ Find the greatest common divisor of given numbers.`);
     const rightAnswer = gcd(num1, num2);
 
     const answer = readlineSync.question('Your answer: ');
-    console.log(rightAnswer, answer);
     if (rightAnswer !== +answer) {
       console.log(`${answer} is wrong answer ;(. Correct answer was ${rightAnswer}.
 Let's try again, ${username}!`);
