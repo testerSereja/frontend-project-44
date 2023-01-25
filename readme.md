@@ -5,7 +5,5 @@
 Файл hexlet-check.yml отвечает за запуск этих тестов - не удаляйте этот файл, не редактируйте его и не переименовывайте репозиторий.
 
 
-ссылка на асинема 
-<a href="https://asciinema.org/a/T4Rop3aDKAXVfsc0iXs4FV3TR">
-<a href = https://asciinema.org/a/dIqJXz1fCcXYGSA0kCeZPkVTV>
-вроде сказали это не обязательно делать 
+
+

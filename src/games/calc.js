@@ -5,7 +5,7 @@ import randomNumber from '../src/games/brain-calc';
 function brainCalc(username) {
   console.log(`Hello, ${username}
     What is the result of the expression?`);
-  for (let i = 0; i < 3; i=i+1) {
+  for (let i = 0; i < 3; i += 1) {
     const operator = ['+', '-', '*'];
     const randomOperator = Math.floor(Math.random() * operator.length);
 
@@ -29,5 +29,3 @@ Let's try again, ${username}!`);
   console.log(`Congratulations, ${username}!`);
 }
 brainCalc(name);
-
-  
