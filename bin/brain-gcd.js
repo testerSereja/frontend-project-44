@@ -10,12 +10,12 @@ Find the greatest common divisor of given numbers.`);
     const num1 = randomNumber(99);
     const num2 = randomNumber(99);
     const expression = `${num1} ${num2}`;
-    function gcd(num1, num2){
-      if (!num2) {
-        return num1;
+    function gcd(numb1, numb2){
+      if (!numb2) {
+        return numb1;
       }
 
-      return gcd(num2, num1 % num2);
+      return gcd(numb2, numb1 % numb2);
     }
     console.log(`Question: ${expression}`);
     const rightAnswer = gcd(num1, num2);
