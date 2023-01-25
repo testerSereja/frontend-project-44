@@ -5,12 +5,12 @@ import name from '../src/cli.js';
 function brainProgression(username) {
   console.log(`Hello, ${username}
 What number is missing in the progression?`);
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < 3; i=i+1) {
     const randomNumber = (base) => Math.round(Math.random() * base);
     const step = randomNumber(10);
     const startNumber = randomNumber(100);
     const Array = [startNumber];
-    for (let i = 0; i < 9; i++) {
+    for (let i = 0; i < 9; i=i+1) {
       Array.push(Array[Array.length - 1] + step);
     }
     

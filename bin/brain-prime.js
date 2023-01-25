@@ -6,14 +6,14 @@ function brainPrime(username) {
   console.log(`Hello, ${username}
   Answer "yes" if given number is prime. Otherwise answer "no".`);
 
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < 3; i=i+1) {
     const randomNumber = (base) => Math.round(Math.random() * base);
     const num = randomNumber(99);
     console.log(`Question: ${num}`);
     const answer = readlineSync.question('Your answer: ');
 
     function primality(num) {
-      for (let i = 2; i < num; i++) {
+      for (let i = 2; i < num; i=i+1) {
         if (num % i === 0) return false;
       }
       return num > 1;

@@ -5,7 +5,7 @@ import name from '../src/cli.js';
 function brainGcd(username) {
   console.log(`Hello, ${username}
 Find the greatest common divisor of given numbers.`);
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < 3; i = i + 1) {
     const randomNumber = (base) => Math.round(Math.random() * base);
     const num1 = randomNumber(99);
     const num2 = randomNumber(99);
