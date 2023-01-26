@@ -18,7 +18,6 @@ function brainPrime(username) {
     console.log(`Question: ${num}`);
     const answer = readlineSync.question('Your answer: ');
 
-    
     const rightAnswer = primality(num) ? 'yes' : 'no';
     console.log(rightAnswer);
     if (rightAnswer !== answer) {
