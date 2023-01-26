@@ -1,12 +1,11 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
-import randomNumber from '../utils.js'
+import randomNumber from '../utils.js';
 
 function brainProgression(username) {
   console.log(`Hello, ${username}
 What number is missing in the progression?`);
   for (let i = 0; i < 3; i += 1) {
-  
     const step = randomNumber(10);
     const startNumber = randomNumber(100);
     const Array = [startNumber];

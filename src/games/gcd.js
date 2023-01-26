@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
-import randomNumber from '../utils.js'
+import randomNumber from '../utils.js';
 
 function gcd(numb1, numb2) {
   if (!numb2) {

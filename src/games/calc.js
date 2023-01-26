@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
-import randomNumber from '../utils.js'
+import randomNumber from '../utils.js';
 
 function brainCalc(username) {
   console.log(`Hello, ${username}

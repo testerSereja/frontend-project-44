@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
 
-
 function brainEven(username) {
   console.log(`Hello, ${username}!
 Answer "yes" if the number is even, otherwise answer "no".`);
