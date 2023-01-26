@@ -10,7 +10,7 @@ What number is missing in the progression?`);
     const step = randomNumber(10);
     const startNumber = randomNumber(100);
     const Array = [startNumber];
-    for (let i = 0; i < 9; i += 1) {
+    for (let j = 0; j < 9; j += 1) {
       Array.push(Array[Array.length - 1] + step);
     }
 
