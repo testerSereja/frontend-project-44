@@ -21,14 +21,13 @@ make install
 
 Для запуска игры "простое число" введите команду  brain-prime;
  ссылка на асинема 
-<a href="https://asciinema.org/a/T4Rop3aDKAXVfsc0iXs4FV3TR">
-<a href = https://asciinema.org/a/dIqJXz1fCcXYGSA0kCeZPkVTV>
-Пример с игрой в четное-нечетное: 
 
-Пример с игрой в калькулятор: 
+Пример с игрой в четное-нечетное: [![asciicast](https://asciinema.org/a/lpJ5uWN4jMLnTHdw9KUv2jynM.svg)](https://asciinema.org/a/lpJ5uWN4jMLnTHdw9KUv2jynM)
 
-Пример с игрой в наибольший делитель: 
+Пример с игрой в калькулятор:[![asciicast](https://asciinema.org/a/TdZrvwPX3EWnonmcUP3qxM5UI.svg)](https://asciinema.org/a/TdZrvwPX3EWnonmcUP3qxM5UI)
 
-Пример с игрой в геометрическую прогрессию: 
+Пример с игрой в наибольший делитель: [![asciicast](https://asciinema.org/a/EYuRRLNoHkftcQhpxkeggvJ8u.svg)](https://asciinema.org/a/EYuRRLNoHkftcQhpxkeggvJ8u)
 
-Пример с игрой в простое число: 
+Пример с игрой в геометрическую прогрессию: [![asciicast](https://asciinema.org/a/I5OgySfySLdFwD1EpKLX44f0B.svg)](https://asciinema.org/a/I5OgySfySLdFwD1EpKLX44f0B)
+
+Пример с игрой в простое число: [![asciicast](https://asciinema.org/a/xmUJq2VjQWfV4FmH0DvRQanbT.svg)](https://asciinema.org/a/xmUJq2VjQWfV4FmH0DvRQanbT)
