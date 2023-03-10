@@ -7,19 +7,19 @@
 <h3>Запуск:</h3>
 
 <p>Для запуска игры "четное-нечетное" введите команду brain-even</p>
- [![asciicast](https://asciinema.org/a/lpJ5uWN4jMLnTHdw9KUv2jynM.svg)](https://asciinema.org/a/lpJ5uWN4jMLnTHdw9KUv2jynM)
+ [![asciicast](https://asciinema.org/a/lpJ5uWN4jMLnTHdw9KUv2jynM.svg)]/n(https://asciinema.org/a/lpJ5uWN4jMLnTHdw9KUv2jynM)
  <br>
 <p>Для запуска игры "калькулятор" введите команду brain-calc</p>
-[![asciicast](https://asciinema.org/a/TdZrvwPX3EWnonmcUP3qxM5UI.svg)](https://asciinema.org/a/TdZrvwPX3EWnonmcUP3qxM5UI)
+[![asciicast](https://asciinema.org/a/TdZrvwPX3EWnonmcUP3qxM5UI.svg)]/n(https://asciinema.org/a/TdZrvwPX3EWnonmcUP3qxM5UI)
  <br>
 <p>Для запуска игры "найди наибольший делитель" введите команду brain-gcd</p>
-[![asciicast](https://asciinema.org/a/EYuRRLNoHkftcQhpxkeggvJ8u.svg)](https://asciinema.org/a/EYuRRLNoHkftcQhpxkeggvJ8u)
+[![asciicast](https://asciinema.org/a/EYuRRLNoHkftcQhpxkeggvJ8u.svg)]/n(https://asciinema.org/a/EYuRRLNoHkftcQhpxkeggvJ8u)
  <br>
 <p>Для запуска игры "геометрическая прогрессия" введите команду  brain-progression</p>
- [![asciicast](https://asciinema.org/a/I5OgySfySLdFwD1EpKLX44f0B.svg)](https://asciinema.org/a/I5OgySfySLdFwD1EpKLX44f0B)
+ [![asciicast](https://asciinema.org/a/I5OgySfySLdFwD1EpKLX44f0B.svg)]/n(https://asciinema.org/a/I5OgySfySLdFwD1EpKLX44f0B)
  <br>
 <p>Для запуска игры "простое число" введите команду  brain-prime</p>
-[![asciicast](https://asciinema.org/a/xmUJq2VjQWfV4FmH0DvRQanbT.svg)](https://asciinema.org/a/xmUJq2VjQWfV4FmH0DvRQanbT)
+[![asciicast](https://asciinema.org/a/xmUJq2VjQWfV4FmH0DvRQanbT.svg)]/n(https://asciinema.org/a/xmUJq2VjQWfV4FmH0DvRQanbT)
 <h3>Установка:</h3>
 
 git clone https://github.com/testerSereja/frontend-project-44
