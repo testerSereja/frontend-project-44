@@ -7,7 +7,7 @@
 <h3>Запуск:</h3>
 
 <p>Для запуска игры "четное-нечетное" введите команду brain-even</p>
- <a href ="[![asciicast](https://asciinema.org/a/lpJ5uWN4jMLnTHdw9KUv2jynM.svg)](https://asciinema.org/a/lpJ5uWN4jMLnTHdw9KUv2jynM)"></a>
+ <a href ="[![asciicast](https://asciinema.org/a/lpJ5uWN4jMLnTHdw9KUv2jynM.svg)]">(https://asciinema.org/a/lpJ5uWN4jMLnTHdw9KUv2jynM)"></a>
  <br>
 <p>Для запуска игры "калькулятор" введите команду brain-calc</p>
 [![asciicast](https://asciinema.org/a/TdZrvwPX3EWnonmcUP3qxM5UI.svg)](https://asciinema.org/a/TdZrvwPX3EWnonmcUP3qxM5UI)
